@@ -1,0 +1,23 @@
+{
+  "name": "generator-quark-module",
+  "version": "0.0.0",
+  "description": "Quark module yeoman generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kockicica/generator-quark-module"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "author": "Kosta Curcic",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2",
+    "yeoman-generator": "^4.0.0",
+    "yosay": "^2.0.2"
+  }
+}
