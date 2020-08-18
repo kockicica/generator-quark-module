@@ -9,12 +9,14 @@ using Castle.Core.Logging;
 
 using Microsoft.Owin;
 using Microsoft.Owin.FileSystems;
-using Microsoft.Owin.Security.ApiKey;
 using Microsoft.Owin.StaticFiles;
 
 using Newtonsoft.Json;
 
 using Owin;
+
+using Quark.Security.ApiKey;
+using Quark.Security.ApiKey.Extensions;
 
 using <%= options.moduleName %>.Core.Config;
 using <%= options.moduleName %>.Core.NHibernate;

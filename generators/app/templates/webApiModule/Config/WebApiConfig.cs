@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-using Microsoft.Owin.Security.ApiKey.Contexts;
+using Quark.Security.ApiKey.Contexts;
 
 namespace <%= options.moduleName %>.Config {
 

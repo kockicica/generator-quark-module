@@ -92,10 +92,6 @@
       <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.ApiKey, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Microsoft.Owin.Security.ApiKey.1.1.1\lib\net452\Microsoft.Owin.Security.ApiKey.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.Owin.StaticFiles, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>..\packages\Microsoft.Owin.StaticFiles.4.0.0\lib\net451\Microsoft.Owin.StaticFiles.dll</HintPath>
       <Private>True</Private>
@@ -207,6 +203,11 @@
       <Project>{996c353a-5e5b-428a-a558-ab5706e7c36d}</Project>
       <Name>Quark.Common</Name>
       <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Quark.Security.ApiKey\Quark.Security.ApiKey.csproj">
+      <Project>{7a9326b0-42da-4874-a4d3-5d881304a1a1}</Project>
+      <Name>Quark.Security.ApiKey</Name>
+      <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\Quark.Messages\Quark.Messages.csproj">
       <Project>{b0ec12f1-4f10-4e7d-9a0b-4b8ee0795fd8}</Project>
